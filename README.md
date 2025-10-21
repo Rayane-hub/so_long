@@ -37,3 +37,30 @@ Ce projet introduit la **programmation graphique**, la **gestion d’événement
 Utilisez le **Makefile** fourni :
 ```bash
 make
+```
+
+L’exécutable `so_long` sera généré.  
+Lancez le jeu avec une carte :
+```bash
+./so_long maps/map.ber
+```
+
+---
+
+## 🗺️ Exemple de carte
+
+```
+1111111
+1P0C0E1
+1111111
+```
+- `1` : mur  
+- `0` : espace vide  
+- `P` : joueur  
+- `C` : collectible  
+- `E` : sortie  
+
+---
+
+## 🖼️ Aperçu visuel
+<img width="1912" height="1045" alt="image" src="https://github.com/user-attachments/assets/f9570d51-eaa3-4c40-af75-f59d7b9793e9" />
