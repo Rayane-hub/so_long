@@ -1,0 +1,47 @@
+# Compiled Object Files
+*.o
+*.obj
+
+# Executables
+so_long
+a.out
+*.exe
+*.out
+
+# Static Libraries
+*.a
+*.lib
+
+# Dynamic Libraries
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test executables
+minilibx-linux/test/mlx-test
+
+# Compiled libraries from minilibx
+minilibx-linux/libmlx.a
+minilibx-linux/libmlx_Linux.a
